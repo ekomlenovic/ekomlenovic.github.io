@@ -1,0 +1,367 @@
+<!DOCTYPE html>
+    <html lang="en">
+    <head>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+        <!--==================== FAVICON ====================-->
+        <link rel="icon" href="assets/img/favicon.svg">
+
+        <!--==================== UNICONS ====================-->
+        <link rel="stylesheet" href="https://unicons.iconscout.com/release/v4.0.0/css/line.css">
+
+        <!--==================== SWIPER CSS ====================-->
+        <link rel="stylesheet" href="assets/css/swiper-bundle.min.css">
+
+        <!--==================== CSS ====================-->
+        <link rel="stylesheet" href="assets/css/styles.css">
+
+        <!--==================== GOOGLE FONTS ====================-->
+        <meta name="google-site-verification" content="5CkbV9WIOnYf2d9o3kOJ6QR84vPb5CsGtm6gBOlaVC4" />
+
+        <title>Emilien Komlenovic</title>
+    </head>
+    <body>
+        <!--==================== HEADER ====================-->
+        <header class="header" id="header">
+            <nav class="nav container">
+                <a href="#" class="nav__logo">Emilien Komlenovic</a>
+                <div class="nav__menu" id="nav-menu">
+                    <ul class="nav__list grid">
+                        <li class="nav__item">
+                            <a href="#home" class="nav__link active-link">
+                                <i class="uil uil-estate nav__icon"></i>Home
+                            </a>
+                        </li>
+                        <li class="nav__item">
+                            <a href="#about" class="nav__link">
+                                <i class="uil uil-user nav__icon"></i>About
+                            </a>
+                        </li>
+                        <li class="nav__item">
+                            <a href="#portfolio" class="nav__link">
+                                <i class="uil uil-scenery nav__icon"></i>Portfolio
+                            </a>
+                        </li>
+                    </ul>
+                    <i class="uil uil-times nav__close nav__icon" id="nav-close"></i>
+                </div>
+                <div class="nav__btns">
+                    <i class="uil uil-moon change-theme" id="theme-button"></i>
+                    <div class="nav__toggle" id="nav-toggle">
+                        <i class="uil uil-apps nav__icon"></i>
+                    </div>
+                </div>
+            </nav>
+        </header>
+
+        <!--==================== MAIN ====================-->
+        <main class="main">
+            <!--==================== HOME ====================-->
+            <section class="home section" id="home">
+                <div class="home__container container grid">
+                    <div class="home__content grid">
+                        <div class="home__social">
+                            <a href="https://www.linkedin.com/in/emilien-komlenovic-56245423b/"  target="_blank" class="home__social-icon">
+                                <i class="uil uil-linkedin-alt"></i>
+                            </a>
+                            <a href="https://github.com/ekomlenovic" target="_blank" class="home__social-icon">
+                                <i class="uil uil-github-alt"></i>
+                            </a>
+                        </div>
+                        <div class="home__img">
+                            <svg class="home__blob" viewBox="0 0 200 187" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+                                <mask id="mask0" mask-type="alpha">
+                                    <path d="M190.312 36.4879C206.582 62.1187 201.309 102.826 182.328 134.186C163.346 165.547
+                                    130.807 187.559 100.226 186.353C69.6454 185.297 41.0228 161.023 21.7403 129.362C2.45775
+                                    97.8511 -7.48481 59.1033 6.67581 34.5279C20.9871 10.1032 59.7028 -0.149132 97.9666
+                                    0.00163737C136.23 0.303176 174.193 10.857 190.312 36.4879Z"/>
+                                </mask>
+                                <g mask="url(#mask0)">
+                                    <path d="M190.312 36.4879C206.582 62.1187 201.309 102.826 182.328 134.186C163.346
+                                    165.547 130.807 187.559 100.226 186.353C69.6454 185.297 41.0228 161.023 21.7403
+                                    129.362C2.45775 97.8511 -7.48481 59.1033 6.67581 34.5279C20.9871 10.1032 59.7028
+                                    -0.149132 97.9666 0.00163737C136.23 0.303176 174.193 10.857 190.312 36.4879Z"/>
+
+                                    <image class="home__blob-img" x='-6' y='0' style="transform: scale(1.3);" xlink:href="assets/img/profile.png"/>
+                                </g>
+                            </svg>
+                        </div>
+
+                        <div class="home__data">
+                            <h1 class="home__title">Hi, I'm Emilien</h1>
+                            <h3 class="home__subtitle">Computer Science Student</h3>
+                            <p class="home__description">
+                                I'm a 20 years old computer scientist,
+                                currently based in Lyon, France. I like to build some stuffs and break others! &#x1f601;
+                            </p>
+                            <a href="#contact" class="button button--flex">
+                                Contact Me <i class="uil uil-message button__icon"></i>
+                            </a>
+                        </div>
+                    </div>
+
+                    <div class="home__scroll">
+                        <a href="#about" class="home__scroll-button button--flex">
+                            <i class="uil uil-mouse-alt home__scroll-mouse"></i>
+                            <span class="home__scroll-name">Scroll down</span>
+                            <i class="uil uil-arrow-down home__scroll-arrow "></i>
+                        </a>
+                    </div>
+                </div>
+            </section>
+
+            <!--==================== ABOUT ====================-->
+            <section class="about section" id="about">
+                <h2 class="section__title">About Me</h2>
+                <span class="section__subtitle">A brief introduction</span>
+
+                <div class="about__container container">
+                    <img src="assets/img/about.png" alt="" class="about__img">
+
+                    <div class="about__data">
+                        <p class="about__description">
+                            Hi! I'm Emilien</a>.
+                            <br /><br />
+                            I am a student in my third year of a computer science degree at the University of Lyon 1 Claude Bernard. I am passionate about tackling a wide range of projects, including data analysis and machine learning.
+                            <br /><br />
+                            If you want to know more about me, feel free to contact me.
+                        </p>
+
+                        <div class="about__buttons">
+                            <a download="" href="assets/pdf/CV.pdf" target="_blank" class="button button--flex">
+                                Download CV<i class="uil uil-download-alt button__icon"></i>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+            </section>
+        </br>
+            <!--==================== PORTFOLIO ====================-->
+            <section class="portfolio section" id="portfolio">
+                <h2 class="section__title">Portfolio</h2>
+                <span class="section__subtitle">My work.</span>
+
+                <div class="portfolio__container container swiper-container">
+                    <div class="swiper-wrapper">
+
+                        <!--==================== PORTFOLIO 1 ====================-->
+                        <div class="portfolio__content grid swiper-slide">
+                            <figure class="portfolio__figure">
+                                <img src="assets/img/rpg_rand_bot.jpg" alt="" class="portfolio__img">
+                            </figure>
+                            <div class="portfolio__data">
+                               <h3 class="portfolio__title">RPG Rand BOT</h3>
+                                <p class="portfolio__description">
+                                    A Discord bot that generates random int for RPG games.
+                                </p>
+                                <a href="https://github.com/ekomlenovic/RPG-Random-Bot" target="_blank" class="button button--flex button--small portfolio__button">
+                                    See More
+                                    <i class="uil uil-arrow-right button__icon"></i>
+                                </a>
+                            </div>
+                        </div>
+                        <!--==================== PORTFOLIO 2 ====================-->
+                        <div class="portfolio__content grid swiper-slide">
+                            <figure class="portfolio__figure">
+                                <img src="assets/img/echec_a_la_doua.jpg" alt="" class="portfolio__img">
+                            </figure>
+                            <div class="portfolio__data">
+                               <h3 class="portfolio__title">Echec_a_la_doua</h3>
+                                <p class="portfolio__description">A Chess Game in C++ with SDL.</p>
+                                <a href="https://github.com/ekomlenovic/echec_a_la_doua" target="_blank" class="button button--flex button--small portfolio__button">
+                                    See More
+                                    <i class="uil uil-arrow-right button__icon"></i>
+                                </a>
+                            </div>
+                        </div>
+
+                        <!--==================== PORTFOLIO 3 ====================-->
+                        <div class="portfolio__content grid swiper-slide">
+                            <figure class="portfolio__figure">
+                                <img src="assets/img/intro_dl.jpg" alt="" class="portfolio__img">
+                            </figure>
+                            <div class="portfolio__data">
+                               <h3 class="portfolio__title">Intro Deep Learning</h3>
+                                <p class="portfolio__description">
+                                    This is an introductory machine learning project, starting with the basics using the MNIST database and ending with the CelebA database, covering multiple technologies such as CNN, Auto_Encoder, and Gan.
+                                </p>
+                                <a href="https://github.com/ekomlenovic/intro_deep_learning" target="_blank" class="button button--flex button--small portfolio__button">
+                                    See More
+                                    <i class="uil uil-arrow-right button__icon"></i>
+                                </a>
+                            </div>
+                        </div>
+                         
+                        <!--==================== PORTFOLIO 4 ====================-->
+                        <div class="portfolio__content grid swiper-slide">
+                            <figure class="portfolio__figure">
+                                <img src="assets/img/Random_Pass_Gen.png" alt="" class="portfolio__img">
+                            </figure>
+                            <div class="portfolio__data">
+                               <h3 class="portfolio__title">Python Password Generator</h3>
+                                <p class="portfolio__description">
+                                    This code is a password generator written in Python using the Tkinter library to create a graphical user interface (GUI). It allows the user to choose the password length, the types of characters to include (uppercase, lowercase, digits, and symbols), and other options such as automatic copying of the generated password to the clipboard and saving the generated passwords to a CSV file.
+                                </p>
+                                <a href="https://github.com/ekomlenovic/password_generator" target="_blank" class="button button--flex button--small portfolio__button">
+                                    See More
+                                    <i class="uil uil-arrow-right button__icon"></i>
+                                </a>
+                            </div>
+                        </div>
+                        <!--==================== PORTFOLIO 5 ====================-->
+                        <div class="portfolio__content grid swiper-slide">
+                            <figure class="portfolio__figure">
+                                <img src="assets/img/matrix.png" alt="" class="portfolio__img">
+                            </figure>
+                            <div class="portfolio__data">
+                               <h3 class="portfolio__title">Matrix Calculator</h3>
+                                <p class="portfolio__description">
+                                    This is a simple matrix calculator made with Tkinter that allows you to perform various matrix operations including transpose, determinant, inverse, eigenvalues, eigenvectors, and spectral projector.
+                                </p>
+                                <a href="https://github.com/ekomlenovic/matrix_calcultator" target="_blank" class="button button--flex button--small portfolio__button">
+                                    See More
+                                    <i class="uil uil-arrow-right button__icon"></i>
+                                </a>
+                            </div>
+                        </div>
+                         
+                    </div>
+
+                    <!-- Add Arrows -->
+                    <div class="swiper-button-next">
+                        <i class="uil uil-angle-right-b swiper-portfolio-icon"></i>
+                    </div>
+                    <div class="swiper-button-prev">
+                        <i class="uil uil-angle-left-b swiper-portfolio-icon"></i>
+                    </div>
+
+                    <!-- Add Pagination -->
+                    <div class="swiper-pagination"></div>
+                </div>
+            </section>
+            <br /><br />
+            <!--==================== CONTACT ME ====================-->
+            <section class="contact section" id="contact">
+                <h2 class="section__title">Contact</h2>
+                <span class="section__subtitle">Get in touch</span>
+
+                <div class="contact__container container grid">
+                    <div>
+                        <div class="contact__information">
+                            <a href="https://www.linkedin.com/in/emilien-komlenovic-56245423b/" target="_blank"><i class="uil uil-linkedin contact__icon"></i></a>
+                            <div>
+                               <h3 class="contact__title">LinkedIn</h3>
+                               <a href="https://www.linkedin.com/in/emilien-komlenovic-56245423b/" target="_blank"><span class="contact__subtitle">www.linkedin.com/in/emilien-komlenovic-56245423b/</span></a>
+                            </div>
+                        </div>
+
+                        <div class="contact__information">
+                            <a href="https://github.com/ekomlenovic/" target="_blank"><i class="uil uil-github contact__icon"></i></a>
+                            <div>
+                               <h3 class="contact__title">GitHub</h3>
+                               <a href="https://github.com/ekomlenovic/" target="_blank"><span class="contact__subtitle">@ekomlenovic</span></a>
+                            </div>
+                        </div>
+
+                        <div class="contact__information">
+                            <a href="mailto:emilien.komlenovic@gmail.com"><i class="uil uil-envelope-alt contact__icon"></i></a>
+                            <div>
+                               <h3 class="contact__title">Email</h3>
+                               <a href="mailto:emilien.komlenovic@gmail.com"><span class="contact__subtitle">emilien.komlenovic@gmail.com</span></a>
+
+                            </div>
+                        </div>
+
+                        <div class="contact__information">
+                            <i class="uil uil-map-marker contact__icon"></i>
+                            <div>
+                               <h3 class="contact__title">Location</h3>
+                               <span class="contact__subtitle">Lyon - France</span>
+                            </div>
+                        </div>
+                    </div>
+
+                    <form action="" class="contact__form grid">
+                        <div class="contact__inputs grid">
+                            <div class="contact__content">
+                                <label for="" class="contact__label">Name</label>
+                                <input type="text" class="contact__input">
+                            </div>
+
+                            <div class="contact__content">
+                                <label for="" class="contact__label">Email</label>
+                                <input type="email" class="contact__input">
+                            </div>
+                        </div>
+                        <div class="contact__content">
+                            <label for="" class="contact__label">Object</label>
+                            <input type="text" class="contact__input">
+                        </div>
+                        <div class="contact__content">
+                            <label for="" class="contact__label">Message</label>
+                            <textarea name="" id="" cols="0" rows="7" class="contact__input"></textarea>
+                        </div>
+
+                        <div>
+                            <a href="mailto:emilien.komlenovic@gmail.com" class="button button--flex">
+                                Send Message
+                                <i class="uil uil-message button__icon"></i>
+                            </a>
+                        </div>
+                    </form>
+                </div>
+            </section>
+        </main>
+
+        <!--==================== FOOTER ====================-->
+        <footer class="footer">
+            <div class="footer__bg">
+                <div class="footer__container container grid">
+                    <div>
+                        <span class="footer__title">Emilien Komlenovic</span><br>
+                        <span class="footer__subtitle">Computer Science Student</span>
+                    </div>
+
+                    <ul class="footer__links">
+                        <li>
+                            <a href="#home" class="footer__link">Home</a>
+                        </li>
+                        <li>
+                            <a href="#about" class="footer__link">About</a>
+                        </li>
+                        <li>
+                            <a href="#portfolio" class="footer__link">Portfolio</a>
+                        </li>
+                    </ul>
+
+                    <div class="footer__socials">
+                        <a href="https://www.linkedin.com/in/emilien-komlenovic-56245423b/" target="_blank" class="footer__social">
+                            <i class="uil uil-linkedin"></i>
+                        </a>
+                        <a href="https://github.com/ekomlenovic" target="_blank" class="footer__social">
+                            <i class="uil uil-github"></i>
+                        </a>
+                    </div>
+
+                </div>
+                <p class="footer__copy">
+                    Based on <a href="https://github.com/bedimcode/responsive-portfolio-website-Alexa" target="_blank">Responsive Personal Website Alexa</a> by <a href=" https://github.com/bedimcode" target="_blank">Bedimcode</a>
+                    <br>
+                    Copyright &#169; Emilien Komlenovic. All rights reserved.
+                </p>
+            </div>
+        </footer>
+
+        <!--==================== SCROLL TOP ====================-->
+        <a href="#" class="scrollup" id="scroll-up">
+            <i class="uil uil-arrow-up scrollup__icon"></i>
+        </a>
+
+        <!--==================== SWIPER JS ====================-->
+        <script src="assets/js/swiper-bundle.min.js"></script>
+
+        <!--==================== MAIN JS ====================-->
+        <script src="assets/js/main.js"></script>
+    </body>
+</html>
